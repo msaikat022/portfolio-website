@@ -486,7 +486,7 @@ all-skills {
         height: 1200px;
         width: 100%;
         position: relative;
-        z-index: -1;
+
 
     }
 
@@ -507,8 +507,11 @@ all-skills {
         top: 200px;
         left: 30px;
         height: 100px;
-        width: 350px;
+        width: 300px;
         font-size: 2rem;
+    }
+    .bPara1{
+        font-size: 1.5rem;
     }
 
     .b-right {
@@ -573,5 +576,8 @@ all-skills {
         height: 20px;
         width: 350px;
     }
+   .mum{
+    columns: 12;
+   }
     
 }
