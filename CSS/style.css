@@ -355,7 +355,15 @@ all-skills {
     color: black;
     background-color: white;
 }
-
+.rights{
+    font-size: 1rem;
+    color: grey;
+    position: absolute;
+    top:400px;
+    left: 625px;
+    height: 20px;
+    width: 350px;
+}
 /* media  */
 
 @media (max-width: 480px) {
@@ -537,6 +545,7 @@ all-skills {
         color: white;
     }
     .contact {
+        display: block;
         text-align: left;
         line-height: 2;
         color: white;
@@ -545,6 +554,17 @@ all-skills {
         width: 270px;
        left: 40px;
         top: 400px;
+    }
+
+    .rights{
+        display: block;
+        font-size: 1rem;
+        color: grey;
+        position: absolute;
+        top:1050px;
+        left: 20px;
+        height: 20px;
+        width: 350px;
     }
     
 }
