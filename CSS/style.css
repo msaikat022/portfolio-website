@@ -413,9 +413,9 @@ all-skills {
 
     .heading-m-container {
 
-        position: relative;
-        text-align: center;
-        font-size: 5rem;
+        position: absolute;
+       left: 130px;
+        font-size: 3rem;
 
     }
 
@@ -562,7 +562,7 @@ all-skills {
         position: absolute;
         height: 300px;
         width: 270px;
-       left: 40px;
+       left: 30px;
         top: 400px;
     }
   
@@ -574,7 +574,7 @@ all-skills {
         top:1050px;
         left: 20px;
         height: 20px;
-        width: 350px;
+        width: 320px;
     }
    .mum{
     columns: 12;
