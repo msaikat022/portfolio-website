@@ -378,7 +378,7 @@ all-skills {
         display: block;
         position: absolute;
         top: 100px;
-        left: 50px;
+        left: 40px;
         height: 800px;
         width: 300px;
         text-align: center;
@@ -389,7 +389,7 @@ all-skills {
         position: absolute;
         display: block;
         width: 20px;
-        left: 100px;
+        left: 90px;
         top: 550px;
     }
 
@@ -434,7 +434,7 @@ all-skills {
 
         border: 3px solid black;
         top: 150px;
-        left: 50px;
+        left: 30px;
     }
 
     .skill-2 {
@@ -447,7 +447,7 @@ all-skills {
 
         border: 3px solid black;
         top: 650px;
-        left: 50px;
+        left: 30px;
     }
 
     .skill-3 {
@@ -460,7 +460,7 @@ all-skills {
 
         border: 3px solid black;
         top: 1150px;
-        left: 50px;
+        left: 30px;
     }
 
     .skill-4 {
@@ -473,7 +473,7 @@ all-skills {
 
         border: 3px solid black;
         top: 1600px;
-        left: 50px;
+        left: 30px;
     }
     .programming-para{
         text-align: left;
@@ -569,7 +569,7 @@ all-skills {
     .rights{
         display: block;
         font-size: 1rem;
-        color: grey;
+        
         position: absolute;
         top:1050px;
         left: 20px;
