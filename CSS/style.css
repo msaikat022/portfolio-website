@@ -11,14 +11,15 @@ html {
 }
 
 body {
-    background-color: rgb(251, 244, 236);
+    background-color: white;
 
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #92AA83;
 }
 
@@ -27,7 +28,7 @@ body {
     border-radius: 3px;
     padding: 5px 20px;
     transition: .3s ease;
-  
+
     cursor: pointer;
 
 }
@@ -101,7 +102,7 @@ hr {
     border-radius: 3px;
     padding: 5px 20px;
     transition: .3s ease;
-    background-color: rgb(251, 244, 236);
+    background-color: white;
     cursor: pointer;
 }
 
@@ -197,12 +198,14 @@ all-skills {
     font-size: 1.1rem;
     padding: 2px 10px 0 10px;
 }
-.hkr{
+
+.hkr {
     text-decoration: none;
     color: olivedrab;
     transition: .3s ease;
 }
-.hkr:hover{
+
+.hkr:hover {
     color: orange;
 }
 
@@ -223,8 +226,9 @@ all-skills {
 }
 
 
-#dash{
-    color: olivedrab;;
+#dash {
+    color: olivedrab;
+    ;
 }
 
 .b-heading {
@@ -310,50 +314,59 @@ all-skills {
 
 }
 
-.fa-facebook:hover{
-color: rgb(83, 130, 224);
+.fa-facebook:hover {
+    color: rgb(83, 130, 224);
 }
-.fa-instagram:hover{
+
+.fa-instagram:hover {
     color: rgb(255, 0, 144);
 }
-.fa-linkedin:hover{
+
+.fa-linkedin:hover {
     color: rgb(25, 72, 201);
 }
-.fa-twitter:hover{
+
+.fa-twitter:hover {
     color: rgb(0, 183, 255);
 }
 
 
-.contact{
+.contact {
     line-height: 2;
     color: white;
-    position:absolute;
+    position: absolute;
     height: 300px;
     width: 500px;
     right: 20px;
     top: 20px;
 }
-#btn3{
-   color: white;
-   border: none;
-   border-radius: 3px;
+
+#btn3 {
+    color: white;
+    border: none;
+    border-radius: 3px;
     padding: 5px 20px;
     transition: .3s ease;
     background-color: #92AA83;
     cursor: pointer;
 }
-#btn3:hover{
+
+#btn3:hover {
     color: black;
     background-color: white;
 }
 
+/* media  */
+
 @media (max-width: 480px) {
-    body{
+    body {
         align-items: center;
         text-align: center;
     }
+
     .texts {
-        display:block;
+
+        display: block;
         position: absolute;
         top: 100px;
         left: 50px;
@@ -361,98 +374,177 @@ color: rgb(83, 130, 224);
         width: 300px;
         text-align: center;
     }
-    
+
     .images {
-     
+
         position: absolute;
-        display:block;
+        display: block;
         width: 20px;
         left: 100px;
         top: 550px;
     }
-    .images img{
+
+    .images img {
         height: 200px;
     }
-    
+
     .heading-body {
         font-size: 3rem;
         position: relative;
         top: 10px;
     }
-    
-  
-.middle-container {
-    height: 2100px;
-    position: relative;
 
 
-}
-
-.heading-m-container {
-
-    position: relative;
-    text-align: center;
-    font-size: 5rem;
-
-}
-
-all-skills {
-    position: relative;
-
-}
-
-.skill-1 {
-    box-shadow: 5px 10px 8px #888888;
-    position: absolute;
-    height:450px;
-    width: 300px;
-
-    display: block;
-
-    border: 3px solid black;
-    top: 150px;
-    left: 50px;
-}
-
-.skill-2 {
-    box-shadow: 5px 10px 8px #888888;
-    position: absolute;
-    height:450px;
-    width: 300px;
-
-    display: block;
-
-    border: 3px solid black;
-    top: 650px;
-    left: 50px;
-}
-
-.skill-3 {
-    box-shadow: 5px 10px 8px #888888;
-    position: absolute;
-    height:400px;
-    width: 300px;
-
-    display: block;
-
-    border: 3px solid black;
-    top: 1150px;
-    left: 50px;
-}
-
-.skill-4 {
-    box-shadow: 5px 10px 8px #888888;
-    position: absolute;
-    height:400px;
-    width: 300px;
-
-    display: block;
-
-    border: 3px solid black;
-    top: 1600px;
-    left: 50px;
-}
+    .middle-container {
+        height: 2100px;
+        position: relative;
 
 
+    }
+
+    .heading-m-container {
+
+        position: relative;
+        text-align: center;
+        font-size: 5rem;
+
+    }
+
+    all-skills {
+        position: relative;
+
+    }
+
+    .skill-1 {
+        box-shadow: 5px 10px 8px #888888;
+        position: absolute;
+        height: 450px;
+        width: 300px;
+
+        display: block;
+
+        border: 3px solid black;
+        top: 150px;
+        left: 50px;
+    }
+
+    .skill-2 {
+        box-shadow: 5px 10px 8px #888888;
+        position: absolute;
+        height: 450px;
+        width: 300px;
+
+        display: block;
+
+        border: 3px solid black;
+        top: 650px;
+        left: 50px;
+    }
+
+    .skill-3 {
+        box-shadow: 5px 10px 8px #888888;
+        position: absolute;
+        height: 400px;
+        width: 300px;
+
+        display: block;
+
+        border: 3px solid black;
+        top: 1150px;
+        left: 50px;
+    }
+
+    .skill-4 {
+        box-shadow: 5px 10px 8px #888888;
+        position: absolute;
+        height: 400px;
+        width: 300px;
+
+        display: block;
+
+        border: 3px solid black;
+        top: 1600px;
+        left: 50px;
+    }
+
+    .bottom-container {
+        display: block;
+        height: 1200px;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+
+    }
+
+    .hhd{
+        font-size: 2.5rem;
+    }
+    .b-heading {
+        font-size: 2.5rem;
+        position: absolute;
+        height: 70px;
+        width: 290px;
+        top: 70px;
+        left: 50px;
+    }
+
+    .b-left {
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        height: 100px;
+        width: 350px;
+        font-size: 2rem;
+    }
+
+    .b-right {
+        text-align: center;
+        font-size: 1.2rem;
+        position: absolute;
+        top: 350px;
+        left: 40px;
+        height: 252px;
+        width: 300px;
+    }
+
+
+
+   .footer {
+        height: 1100px;
+    }
+    .footer-content {
+        display: block;
+        position: absolute;
+        color: #92AA83;
+        width: 350px;
+        top:10px;
+        left: 25px;
+    }
+    .footer h1{
+        font-size: 1.7rem;
+    }
+    .footer p{
+        color: white;
+    }
+
+    .socials {
+        font-size: 1.2rem;
+        height: 100px;
+        width: 220px;
+        position: absolute;
+        top: 900px;
+        left: 80px;
+        color: white;
+    }
+    .contact {
+        text-align: left;
+        line-height: 2;
+        color: white;
+        position: absolute;
+        height: 400px;
+        width: 300px;
+        right: 60px;
+        top: 400px;
+    }
     
 }
