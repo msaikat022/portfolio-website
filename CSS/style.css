@@ -20,11 +20,11 @@ body {
 }
 
 .nav-link:hover {
-    color: #92AA83;
+    color: #0099ff;
 }
 
 .btn {
-    border: 2px solid #92AA83;
+    border: 2px solid #0099ff;
     border-radius: 3px;
     padding: 5px 20px;
     transition: .3s ease;
@@ -36,8 +36,8 @@ body {
 
 
 .btn:hover {
-    border: 2px solid #92AA83;
-    background-color: #92AA83;
+    border: 2px solid #0099ff;
+    background-color: #0099ff;
 
 }
 
@@ -107,7 +107,7 @@ hr {
 }
 
 .btn2:hover {
-    background-color: #92AA83;
+    background-color: #0099ff;
     color: white;
 
 }
@@ -191,6 +191,7 @@ all-skills {
 }
 
 .graphic-heading {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -201,7 +202,7 @@ all-skills {
 
 .hkr {
     text-decoration: none;
-    color: olivedrab;
+    color: 0099ff;
     transition: .3s ease;
 }
 
@@ -227,7 +228,7 @@ all-skills {
 
 
 #dash {
-    color: olivedrab;
+    color: #0099ff;
     ;
 }
 
@@ -278,7 +279,7 @@ all-skills {
 }
 
 .footer-content h1 {
-    color: #92AA83;
+    color: #0099ff;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -347,7 +348,7 @@ all-skills {
     border-radius: 3px;
     padding: 5px 20px;
     transition: .3s ease;
-    background-color: #92AA83;
+    background-color: #0099ff;
     cursor: pointer;
 }
 
@@ -474,7 +475,12 @@ all-skills {
         top: 1600px;
         left: 50px;
     }
-
+    .programming-para{
+        text-align: left;
+    }
+    .programming-para2{
+        text-align: left;
+    }
     .bottom-container {
         display: block;
         height: 1200px;
@@ -523,7 +529,7 @@ all-skills {
     .footer-content {
         display: block;
         position: absolute;
-        color: #92AA83;
+        color: #0099ff;
         width: 300px;
         top:10px;
         left: 25px;
@@ -545,6 +551,7 @@ all-skills {
         color: white;
     }
     .contact {
+        font-size: 1rem;
         display: block;
         text-align: left;
         line-height: 2;
@@ -555,7 +562,7 @@ all-skills {
        left: 40px;
         top: 400px;
     }
-
+  
     .rights{
         display: block;
         font-size: 1rem;
